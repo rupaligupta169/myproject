@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Pet Store API tests" verbose="1">
+	<test name="Pet Store API tests">
+		<classes>
+			<class name="myproject.PetStoreTest" />
+		</classes>
+	</test>
+	<test name="Demo Blaze UI tests">
+		<parameter name="URL" value="https://www.demoblaze.com/index.html"></parameter>
+		<parameter name="Category" value="Laptops"></parameter>
+		<parameter name="Product" value="Sony vaio i5"></parameter>
+		<parameter name="SecondProduct" value="Dell i7 8gb"></parameter>
+		<parameter name="DeleteProduct" value="Dell i7 8gb"></parameter>
+		<classes>
+			<class name="myproject.DemoBlazeTest" />
+		</classes>
+	</test>
+</suite>
